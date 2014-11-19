@@ -471,7 +471,7 @@ body.short-header header {
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  visibility: hidden;
+  visibility: visible;
   -moz-opacity: 0;
   -khtml-opacity: 0;
   -webkit-opacity: 0;
