@@ -466,7 +466,7 @@ body.short-header header {
   transition: all 0.2s ease-in-out;
 }
 .bio .user-avatar-hover {
-  z-index: 10000;
+  z-index: 5;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
@@ -646,6 +646,7 @@ a.btn.btn-mini:hover {
   display: block;
   clear: both;
   padding: 255px 0 0 0;
+  z-index: 10;
 }
 .post a {
   text-decoration: none;
