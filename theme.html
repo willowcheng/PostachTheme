@@ -172,8 +172,10 @@
           <h1>{{ post.title }}</h1>
           <div data-type-cleanup="true">
             {{ post.content }}
-            {% if post.type == 'post' or post.type == 'webclip' %}
-            <p class="link-url"><img src="https://cdn2.iconfinder.com/data/icons/social-aquiocons/128/Aquicon-Sharethis.png" class="icon-share"></img> <a href="{{ link.url }}">{{ link.url }}</a></p>
+            {% if post.type == 'link' or post.type == 'webclip' %}
+            <p class="link-url"><img src="https://cdn2.iconfinder.com/data/icons/social-aquicons/128/Ask.fm.png" class="icon-share"></img> <a href="{{ link.url }}">{{ link.url }}</a></p>
+            {% else %}
+            <p class="link-url"><img src="https://cdn2.iconfinder.com/data/icons/social-aquiocons/128/Aquicon-Evernote.png" class="icon-share"></img></p>
             {% endif %}
           </div>
         </div>
@@ -183,6 +185,7 @@
           <li><a href="/tag/{{ tag }}">{{ tag }}</a></li>
         {% endfor %}
         </ul>
+
         {% endif %}
         <div class="post-footer">
           <a class="post-author" href="{{ site.base_url }}">
