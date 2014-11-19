@@ -96,14 +96,6 @@
             </li>
             {% endif %}
 
-            {% if site.github %}
-            <li>
-              <a href="{{ site.github }}?rel=author" title="Github" target="_blank">
-                <img src="https://cdn2.iconfinder.com/data/icons/social-aquiocons/128/Aquicon-Github.png" class="icon-google-plus"></img>
-              </a>
-            </li>
-            {% endif %}
-
             {% if site.linkedin %}
             <li>
               <a href="{{ site.linkedin }}" title="LinkedIn" target="_blank">
@@ -180,7 +172,7 @@
           <h1>{{ post.title }}</h1>
           <div data-type-cleanup="true">
             {{ post.content }}
-            {% if post.type == 'link' or post.type == 'webclip' %}
+            {% if post.type == 'post' or post.type == 'webclip' %}
             <p class="link-url"><img src="https://cdn2.iconfinder.com/data/icons/social-aquiocons/128/Aquicon-Sharethis.png" class="icon-share"></img> <a href="{{ link.url }}">{{ link.url }}</a></p>
             {% endif %}
           </div>
@@ -191,10 +183,6 @@
           <li><a href="/tag/{{ tag }}">{{ tag }}</a></li>
         {% endfor %}
         </ul>
-        <p>{{ post.location }}</p>
-        <p>{{ post.location.lng }}</p>
-        <p>{{ post.type }}</p>
-        <p>{{ post.slug }}</p>
         {% endif %}
         <div class="post-footer">
           <a class="post-author" href="{{ site.base_url }}">
