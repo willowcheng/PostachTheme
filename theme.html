@@ -242,10 +242,10 @@
         </div>
         <div class="right">
           <!-- <p><a href="http://postach.io" target="_blank"><i class="po-nut-outline">&nbsp;</i></a></p> -->
-          <p><a href="{{ site.base_url }}">Home</a></p>
           <p><a href="#">Back to top</a></p>
+          <p><a href="{{ site.base_url }}">Home</a></p>
           {% for page in pages %}
-          <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
+          <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">About</a></li>
           {% endfor %}
         </div>
       </footer>
