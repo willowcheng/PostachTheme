@@ -324,7 +324,7 @@ header .overlay {
   filter: alpha(opacity=0);
 }
 body.short-header header {
-  height: 130px;
+  height: 190px;
 }
 .fade {
   -webkit-animation: fade 2s 1 ease-in;
