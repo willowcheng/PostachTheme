@@ -1205,6 +1205,7 @@ h3.tag-header {
   }
   .post .post-footer .post-author p {
     display: none;
+    width: 200px;
   }
   .post .post-footer .post-author img {
     width: 30px;
