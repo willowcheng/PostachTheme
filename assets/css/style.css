@@ -494,6 +494,7 @@ body.short-header header {
   padding-bottom: 12.5px;
   color: #ffffff;
   margin: 0;
+  font-weight: bold;
 }
 .bio .user-avatar-hover p {
   color: #ffffff;
