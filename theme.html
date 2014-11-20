@@ -32,10 +32,16 @@
 
     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-      #mc_embed_signup{background:#F7F7F7; border: 1px solid #EEE; border-radius: 3px; margin-top: 3em; clear:left; 'Roboto', helvetica, arial, sans-serif; font-weight: 300; }
+      #mc_embed_signup{background:#F7F7F7; border: 1px solid #EEE; border-radius: 3px; margin-top: 3em; clear:left; font-family: 'Roboto', helvetica, arial, sans-serif; font-weight: 300; }
       /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
          #mc_embed_signup h2 {margin: 0; }
+         #mc_embed_signup .asterisk {top: 35px;}
+         #mc_embed_signup .mc-field-group input {
+font-weight: 300;
+font-family: 'Roboto', helvetica, arial, sans-serif;
+font-weight:bold;
+}
     </style>
 
   </head>
@@ -228,7 +234,7 @@
 </label>
 <span class="asterisk">*</span>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-  
+
 </div>
 <div class="mc-field-group">
 	<label for="mce-NNAME">Nick Name </label>
