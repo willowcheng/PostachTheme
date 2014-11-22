@@ -14,7 +14,7 @@ $(document).ready(function(){
   if(isHome)
     $hover.css({ top: '-'+parseInt($hover.height()+70)+'px' });
   else
-    $hover.css({ display: none });
+    $hover.css({ visibility: hidden });
 
   // add cover photo after whole page loads
   $(window).load(function(){
