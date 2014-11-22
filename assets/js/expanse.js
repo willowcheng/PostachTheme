@@ -13,8 +13,11 @@ $(document).ready(function(){
   // adjust top position of bio hover on homepage
   if(isHome)
     $hover.css({ top: '-'+parseInt($hover.height()+70)+'px' });
-  else
-    $hover.visibility="hidden";
+
+  // customize
+  var isNotHome = ($('body').hasClass('bg fade'))? false: true;
+  if(isNotHome)
+    $hover.display="none";
 
   // add cover photo after whole page loads
   $(window).load(function(){
