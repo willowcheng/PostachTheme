@@ -15,9 +15,9 @@ $(document).ready(function(){
     $hover.css({ top: '-'+parseInt($hover.height()+70)+'px' });
 
   // customize
-  var isNotHome = ($('div').hasClass('bg fade'))? false: true;
-  if(isNotHome)
-    $hover.display="none";
+  //var isNotHome = ($('div').hasClass('bg fade'))? false: true;
+  //if(isNotHome)
+    //$hover.display="none";
 
   // add cover photo after whole page loads
   $(window).load(function(){
