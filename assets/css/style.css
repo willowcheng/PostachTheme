@@ -774,6 +774,7 @@ a.btn.btn-mini:hover {
 }
 .post-content h1 {
   padding-bottom: 25px;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;
 }
 .post-content h2,
 .post-content h3 {
@@ -1123,6 +1124,7 @@ div.posts h3 {
 }
 div.posts h3 a {
   color: #0e3029;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;
 }
 div.posts h3 a:hover {
   color: #37cca2;
