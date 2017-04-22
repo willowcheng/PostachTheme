@@ -1,6 +1,8 @@
 theme-expanse
 =============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/willowcheng/PostachTheme.svg)](https://greenkeeper.io/)
+
 The official repository for our default theme, Expanse. Fork this to use it as a boilerplate.
 
 ## Getting Started
